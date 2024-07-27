@@ -1,0 +1,53 @@
+;paint.net Palette File
+;Downloaded from Lospec.com/palette-list
+;Palette Name: eroge 48
+;Description: In an attempt at doing a large palette I decided to take inspiration from <a href="https://lospec.com/palette-list/eroge-copper" target="_blank">Arne's Eroge Copper</a> palette with this result. While it still has a lot of focus in warm colours and little on green and purple, it is way more balanced
+;Colors: 48
+FF000000
+FF372d30
+FF553b3f
+FF764f4f
+FFa06b61
+FFcfad9f
+FFfbd99b
+FFf1d56c
+FFd5b14f
+FFb38c31
+FF785c25
+FF513916
+FF371c1a
+FF512b25
+FF723d32
+FF90553e
+FFb16b4e
+FFcc825d
+FFeba973
+FFdd7261
+FFbb4f4e
+FF9a3846
+FF582432
+FF212020
+FF343435
+FF474545
+FF605e5c
+FF888c8e
+FFabafa9
+FFd3d3d3
+FFcce37b
+FF9bc15d
+FF6ea24f
+FF437c4b
+FF1f2c37
+FF325160
+FF4189a0
+FF73c0c9
+FFa7dfd8
+FF5580c5
+FF4a5bb1
+FF3d3670
+FF262043
+FF67396a
+FFa24f9b
+FFcf81be
+FFe9b2dc
+FFffffff
