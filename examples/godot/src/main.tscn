@@ -1,9 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://d3103sit7p6q2"]
+[gd_scene load_steps=6 format=3 uid="uid://d3103sit7p6q2"]
 
 [ext_resource type="Script" path="res://src/main.gd" id="1_gnvqc"]
+[ext_resource type="Shader" path="res://src/shaders/palette_clamp.gdshader" id="2_mqpfw"]
+[ext_resource type="Texture2D" uid="uid://br4vp2adh2gbr" path="res://assets/eroge-48-1x.png" id="3_phg0s"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_tufg6"]
 font_size = 8
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5iwj5"]
+shader = ExtResource("2_mqpfw")
+shader_parameter/palette = ExtResource("3_phg0s")
 
 [node name="Main" type="Node"]
 script = ExtResource("1_gnvqc")
@@ -40,3 +46,11 @@ autowrap_mode = 2
 
 [node name="Camera2D" type="Camera2D" parent="."]
 anchor_mode = 0
+
+[node name="PaletteClamp" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_5iwj5")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

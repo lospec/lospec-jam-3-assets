@@ -7,4 +7,5 @@ The project requires Godot 4.3 RC 1 (available at https://godotengine.org/downlo
 
 ## Acknowledgements
 All Lospec-related trademarks and branding belong to their respective owners.
+
 The project and any source code is released under the MIT license (see LICENSE.md).
