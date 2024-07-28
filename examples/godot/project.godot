@@ -1,0 +1,63 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="LSJ3 Godot Template"
+config/description="A template project for the Lospec Jam."
+run/main_scene="res://src/main.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+boot_splash/image="res://assets/app_splash.png"
+boot_splash/use_filter=false
+config/icon="res://assets/app_icon.png"
+
+[display]
+
+window/size/viewport_width=256
+window/size/viewport_height=144
+window/size/initial_position_type=2
+window/size/window_width_override=1024
+window/size/window_height_override=576
+window/stretch/mode="viewport"
+window/stretch/scale_mode="integer"
+
+[filesystem]
+
+import/fbx2gltf/enabled=false
+import/blender/enabled=false
+import/fbx/enabled=false
+
+[gui]
+
+fonts/dynamic_fonts/use_oversampling=false
+theme/custom="res://assets/default.theme"
+
+[input]
+
+touch={
+"deadzone": 0.5,
+"events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":1,"canceled":false,"pressed":false,"double_click":false,"script":null)
+]
+}
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/anisotropic_filtering_level=0
+textures/decals/filter=0
+textures/light_projectors/filter=0
+environment/defaults/default_clear_color=Color(0.278431, 0.270588, 0.270588, 1)
+2d/snap/snap_2d_transforms_to_pixel=true

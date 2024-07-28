@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3103sit7p6q2"]
+
+[ext_resource type="Script" path="res://src/main.gd" id="1_gnvqc"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_tufg6"]
+font_size = 8
+
+[node name="Main" type="Node"]
+script = ExtResource("1_gnvqc")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="CenterContainer" type="CenterContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/CenterContainer"]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="MarginContainer/CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "Info:"
+
+[node name="Info" type="Label" parent="MarginContainer/CenterContainer/VBoxContainer"]
+custom_minimum_size = Vector2(224, 96)
+layout_mode = 2
+text = "- The default input action is named \"touch\" and can read either touch or mouse input.
+- The project uses Godot 4.3rc1 for pixel-art improvements (cameras should be smoother).
+- The window resizes smoothly and keeps to the jam restrictions."
+label_settings = SubResource("LabelSettings_tufg6")
+autowrap_mode = 2
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
