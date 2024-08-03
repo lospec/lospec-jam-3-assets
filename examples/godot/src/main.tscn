@@ -4,14 +4,14 @@
 [ext_resource type="Shader" path="res://src/shaders/palette_clamp.gdshader" id="2_mqpfw"]
 [ext_resource type="Texture2D" uid="uid://5uyqxmt5igow" path="res://assets/cursor.png" id="2_tuyn5"]
 [ext_resource type="Script" path="res://src/ui/touch_cursor.gd" id="3_ct5n6"]
-[ext_resource type="Texture2D" uid="uid://br4vp2adh2gbr" path="res://assets/eroge-48-1x.png" id="3_phg0s"]
+[ext_resource type="Texture2D" uid="uid://cwpt6t88mbdqs" path="res://assets/eroge_48.png" id="5_nsjrr"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_tufg6"]
 font_size = 8
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_5iwj5"]
 shader = ExtResource("2_mqpfw")
-shader_parameter/palette = ExtResource("3_phg0s")
+shader_parameter/palette = ExtResource("5_nsjrr")
 
 [node name="Main" type="Node"]
 script = ExtResource("1_gnvqc")

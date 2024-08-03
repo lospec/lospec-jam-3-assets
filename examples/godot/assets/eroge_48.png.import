@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br4vp2adh2gbr"
-path="res://.godot/imported/eroge-48-1x.png-a5c4795d3ccefe8698a32101c9e814f5.ctex"
+uid="uid://cwpt6t88mbdqs"
+path="res://.godot/imported/eroge_48.png-388f6b80c8cb1764c81921d4638d24da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/eroge-48-1x.png"
-dest_files=["res://.godot/imported/eroge-48-1x.png-a5c4795d3ccefe8698a32101c9e814f5.ctex"]
+source_file="res://assets/eroge_48.png"
+dest_files=["res://.godot/imported/eroge_48.png-388f6b80c8cb1764c81921d4638d24da.ctex"]
 
 [params]
 
