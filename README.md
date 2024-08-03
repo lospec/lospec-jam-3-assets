@@ -29,3 +29,6 @@ You are welcome to add any assets to this repo that other people can use for Los
 ## Promotional:
 - Logo by 3dcrepper
 - Console Render by 3dcrepper
+
+## Other Assets:
+- Easy to Read Solitaire Cards by JamesTDG
